@@ -1,0 +1,54 @@
+/* Write your CSS code here */
+body {
+  background-color: #161929;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 100vh;
+}
+
+.container {
+  background-color: #1e2137;
+  height: 230px;
+  border-radius: 0.3em;
+  max-width: 500px;
+  padding: 30px;
+}
+
+img {
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+  border-radius: 3em;
+}
+
+.profile {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+
+.content {
+  height: 70px;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  background-color: #1f87dc;
+  height: 35px;
+  font-weight: 700;
+  color: white;
+  width: 30%;
+  border-radius: 2em;
+}
+
+.lane {
+  width: 100%;
+  background-color: #161929;
+  height: 2px;
+}
